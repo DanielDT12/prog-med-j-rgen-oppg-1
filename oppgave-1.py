@@ -38,13 +38,13 @@ print(myListD.count("stringsD")) ### printer ut hvor mange av "stringsD" strings
 minText = "Python is a high-level programming language known for its simplicity and versatility. It is widely used in various fields such as web development, data analysis, artificial intelligence, and scientific computing."
 
 for text in minText:
-    print(text)
+    print(text) ### printer ut hver bokstav på ny linje i stringen
 
 for text in minText.splitlines():
-    print(text)
+    print(text) ### printer ut den orginale teksten? er ikke helt sikker
 
 for text in minText.split():
-    print(text)
+    print(text) ### printer ut hvert ord på ny linje
 
 for i in range(0, 101):
     print(i)
